@@ -1,7 +1,8 @@
 ﻿namespace Session_Three
 {
     internal class Program
-    {   static void ListOptions()
+    {
+        static void ListOptions()
         {
             Console.WriteLine("------------------------------------------------------------------------");
             Console.WriteLine("List Options: \n");
