@@ -1,4 +1,4 @@
-﻿namespace SessionTwo___List_Task_
+﻿namespace SessionTwoListTask
 {
     internal class Program
     {
@@ -16,9 +16,9 @@
                 Console.Write("Enter \"L\" or \"l\" to find largest value in the list. \n");
                 Console.Write("Enter \"S\" or \"s\" to find smallest value in the list. \n");
                 Console.Write("Enter \"M\" or \"m\" to find mean value in the list. \n");
-                Console.Write("Enter \"F\" or \"f\" to find a value in the list. \n");
+                Console.Write("Enter \"F\" or \"f\" to find mean value in the list. \n");
                 Console.Write("Enter \"C\" or \"c\" to clear the list. \n");
-                Console.Write("Enter \"W\" or \"w\" to swap between two numbers in list. \n");
+                Console.Write("Enter \"W\" or \"w\" to swape between two numbers in the list. \n");
                 Console.Write("Enter \"Q\" or \"q\" to quit the program. \n \n");
                 Console.Write("Enter your option: ");
                 option = Convert.ToChar(Console.ReadLine());
@@ -147,4 +147,3 @@
         }
     }
 }
-
